@@ -1,6 +1,5 @@
 import { hashHistory } from "react-router";
 import ReactGA from "react-ga";
-import auth from "./auth.ts"; // Sample authentication provider
 
 require("./style.css");
 
