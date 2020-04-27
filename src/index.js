@@ -15,11 +15,7 @@ var routes = require("./routes").default;
 
 const trackingId = "UA-164641455-1"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
-ReactGA.set({
-  userId: auth.currentUserId(),
-  // any data that is relevant to the user session
-  // that you would like to track with google analytics
-});
+
 ReactGA.pageview("/");
 
 render(
