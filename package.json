@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "events": "1.1.1",
-    "firebase": "3.4.1",
+    "firebase": "10.9.0",
     "history": "^2.1.2",
     "netlify-cli": "^2.48.0",
     "object-assign": "^4.1.0",
